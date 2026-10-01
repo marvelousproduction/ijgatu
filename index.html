@@ -58,10 +58,10 @@ body {
 }
 
 /* ===== Slider ===== */
-.slides { display:grid; }
+.slides { position:relative; }
 .slide {
-  grid-area:1/1;
-  position:relative;
+  position:absolute;
+  top:0; left:0; right:0;
   min-height:760px;
   opacity:0;
   visibility:hidden;
@@ -69,6 +69,7 @@ body {
   transition:opacity .5s ease, transform .5s ease, visibility 0s .5s;
 }
 .slide.active {
+  position:relative;
   opacity:1;
   visibility:visible;
   transform:none;
@@ -77,6 +78,7 @@ body {
 
 /* Slide 2: último lanzamiento */
 .slide-release {
+  min-height:0;
   display:grid;
   grid-template-columns:1fr 540px;
   align-items:center;
@@ -288,7 +290,8 @@ body {
 
 .track img {
   width:100%;
-  height:210px;
+  aspect-ratio:1/1;
+  height:auto;
   object-fit:cover;
   display:block;
 }
@@ -722,7 +725,7 @@ body {
   .hero-frame { min-height:0; }
   .slide { min-height:0; }
   .title-stack div { font-size:clamp(72px,14vw,112px); }
-  .hero-img { position:relative; right:auto; bottom:auto; display:block; width:calc(100% - 92px); height:auto; max-height:620px; margin:20px 18px 0 74px; }
+  .hero-img { position:relative; top:auto; right:auto; bottom:auto; display:block; width:calc(100% - 92px); height:auto; max-height:620px; margin:20px 18px 0 74px; }
 
   .slide-release { grid-template-columns:1fr; }
   .rel-cover { max-width:520px; }
@@ -798,7 +801,7 @@ body {
         <h2 class="rel-title">ARTEMIS</h2>
         <p class="rel-meta">BIGROOM — IJGATU DJ — 2026</p>
         <div class="rel-cta">
-          <a class="btn btn-gold" href="https://www.mavelpoint.com/es/artist/ijgatu/overview" target="_blank">▶ ESCUCHAR EN </a>
+          <a class="btn btn-gold" href="https://www.mavelpoint.com/es/artist/ijgatu/overview" target="_blank">▶ ESCUCHAR </a>
           <a class="btn btn-outline" href="#lanzamientos">VER TODOS →</a>
           <div class="sl-arrows"><button class="sl-btn" data-dir="-1" aria-label="Anterior">←</button><button class="sl-btn" data-dir="1" aria-label="Siguiente">→</button></div>
         </div>
