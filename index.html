@@ -1,795 +1,234 @@
 <!DOCTYPE html>
 <html lang="es"><head><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1"><title>IJGATU - Official</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IJGATU | DJ y productor de Bigroom y Melodic Techno · Bogotá, Colombia</title>
+<meta name="description" content="IJGATU es un DJ y productor de Bogotá, Colombia. Música electrónica progresiva, eufórica y rítmica: Bigroom house y melodic techno. Escucha Artemis, Voyager, Gravity y más.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#080808">
+<link rel="canonical" href="https://www.ijgatu.qd.je/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="IJGATU">
+<meta property="og:title" content="IJGATU | DJ y productor · Bogotá, Colombia">
+<meta property="og:description" content="Bigroom house y melodic techno desde Bogotá. Escucha el último lanzamiento: Artemis.">
+<meta property="og:url" content="https://www.ijgatu.qd.je/">
+<meta property="og:image" content="https://www.ijgatu.qd.je/images/artemis.jpg">
+<meta property="og:image:alt" content="Portada de Artemis, último lanzamiento de IJGATU">
+<meta property="og:locale" content="es_CO">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="IJGATU | DJ y productor · Bogotá, Colombia">
+<meta name="twitter:description" content="Bigroom house y melodic techno desde Bogotá. Escucha Artemis, el último lanzamiento.">
+<meta name="twitter:image" content="https://www.ijgatu.qd.je/images/artemis.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MusicGroup",
+  "name": "IJGATU",
+  "alternateName": "IJGATU DJ",
+  "url": "https://www.ijgatu.qd.je/",
+  "description": "DJ y productor de música electrónica de Bogotá, Colombia. Bigroom house, melodic techno y sonido progresivo.",
+  "genre": ["Big Room House", "Melodic Techno", "Progressive House"],
+  "foundingLocation": {"@type": "Place", "name": "Bogotá, Colombia"},
+  "foundingDate": "2022",
+  "image": "https://www.ijgatu.qd.je/images/hero-portrait.jpg",
+  "email": "ijgatudj@gmail.com",
+  "sameAs": [
+    "https://www.youtube.com/@ijgatudj",
+    "https://open.spotify.com/intl-es/artist/3RXrcExYpRZfXqje3I6b3p",
+    "https://soundcloud.com/ijgatu",
+    "https://www.instagram.com/ijgatu/",
+    "https://www.tiktok.com/@ijgatu",
+    "https://music.apple.com/id/artist/ijgatu-dj/1610407190"
+  ],
+  "track": [
+    {"@type": "MusicRecording", "name": "Artemis", "byArtist": {"@type": "MusicGroup", "name": "IJGATU"}, "genre": "Big Room House", "datePublished": "2026"},
+    {"@type": "MusicRecording", "name": "Voyager", "byArtist": {"@type": "MusicGroup", "name": "IJGATU"}, "genre": "Big Room House", "url": "https://open.spotify.com/track/0rFT6zgaaKY6pSnwLOzHu0"},
+    {"@type": "MusicRecording", "name": "Gravity", "byArtist": {"@type": "MusicGroup", "name": "IJGATU"}, "genre": "Melodic Techno", "url": "https://open.spotify.com/track/6LZX0fwvg3lEPBZg1315tR"},
+    {"@type": "MusicRecording", "name": "Java", "byArtist": {"@type": "MusicGroup", "name": "IJGATU"}, "genre": "Big Room House", "url": "https://open.spotify.com/track/7cmJOV7r9ffelOnq6G2olf"},
+    {"@type": "MusicRecording", "name": "Your Main", "byArtist": {"@type": "MusicGroup", "name": "IJGATU"}, "genre": "Techno", "url": "https://open.spotify.com/track/3Fh7tEXfDYrlT2GQzP88iS"}
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 <style>
-:root {
-  --gold:#FFC400;
-  --gold2:#FFD54F;
-}
-
-* {
-  box-sizing:border-box;
-  margin:0;
-  padding:0;
-}
-
-body {
-  background:#050505;
-  color:#fff;
-  font-family:'Space Grotesk';
-}
-
-.wrap {
-  width:1200px;
-  margin:0 auto;
-  background:#080808;
-  border-left:1px solid #1a1a1a;
-  border-right:1px solid #1a1a1a;
-}
-
-.hazard {
-  height:28px;
-  background:repeating-linear-gradient(-45deg,var(--gold) 0 18px,#000 18px 36px);
-  border-top:2px solid var(--gold);
-  border-bottom:2px solid var(--gold);
-}
-
-.plusbar {
-  height:22px;
-  background:#000;
-  color:#333;
-  font-family:'JetBrains Mono';
-  font-size:11px;
-  letter-spacing:8px;
-  display:flex;
-  align-items:center;
-  border-bottom:1px solid #222;
-  overflow:hidden;
-}
-
-.hero-frame {
-  margin:0;
-  border:4px solid var(--gold);
-  position:relative;
-  background:radial-gradient(ellipse at 20% 20%, #1a1a0a 0%, #000 70%);
-  box-shadow:0 0 30px rgba(255,196,0,.15) inset;
-  overflow:hidden;
-}
+:root{--gold:#FFC400;--gold2:#FFD54F}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#050505;color:#fff;font-family:'Space Grotesk',Arial,sans-serif}
+.wrap{width:1200px;margin:0 auto;background:#080808;border-left:1px solid #1a1a1a;border-right:1px solid #1a1a1a}
+.hazard{height:28px;background:repeating-linear-gradient(-45deg,var(--gold) 0 18px,#000 18px 36px);border-top:2px solid var(--gold);border-bottom:2px solid var(--gold)}
+.plusbar{height:22px;background:#000;color:#333;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:8px;display:flex;align-items:center;border-bottom:1px solid #222;overflow:hidden}
+.hero-frame{margin:0;border:4px solid var(--gold);position:relative;background:radial-gradient(ellipse at 20% 20%,#1a1a0a 0%,#000 70%);box-shadow:0 0 30px rgba(255,196,0,.15) inset;overflow:hidden}
 
 /* ===== Slider ===== */
-.slides { position:relative; }
-.slide {
-  position:absolute;
-  top:0; left:0; right:0;
-  min-height:760px;
-  opacity:0;
-  visibility:hidden;
-  transform:translateX(24px);
-  transition:opacity .5s ease, transform .5s ease, visibility 0s .5s;
+.slides{position:relative}
+.slide{position:absolute;top:0;left:0;right:0;min-height:760px;opacity:0;visibility:hidden;transform:translateX(24px);transition:opacity .5s ease,transform .5s ease,visibility 0s .5s}
+.slide.active{position:relative;opacity:1;visibility:visible;transform:none;transition:opacity .5s ease,transform .5s ease}
+.slide-release{min-height:0;display:grid;grid-template-columns:1fr 540px;align-items:center;gap:30px;padding:40px 18px 40px 74px;z-index:3}
+.rel-label{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.2em;color:#000;background:var(--gold);padding:6px 12px}
+.rel-title{font-family:'Anton',Impact,sans-serif;font-weight:400;font-size:clamp(64px,9vw,128px);line-height:.9;letter-spacing:2px;color:var(--gold);margin:22px 0 14px;text-shadow:0 0 6px rgba(255,196,0,.6),0 0 14px rgba(255,196,0,.25)}
+.rel-meta{font-family:'JetBrains Mono',monospace;font-size:12px;color:#aaa;letter-spacing:.1em}
+.rel-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.rel-cover{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border-left:4px solid #fff;outline:3px solid var(--gold);outline-offset:-4px}
+.slider-nav{position:relative;z-index:10;display:flex;align-items:center;gap:14px;padding:12px 18px 12px 74px;border-top:1px solid #222;background:#000}
+.sl-btn{width:36px;height:36px;background:#000;color:var(--gold);border:2px solid var(--gold);font-family:'JetBrains Mono',monospace;font-size:14px;cursor:pointer;transition:.15s}
+.sl-btn:hover{background:var(--gold);color:#000}
+.sl-arrows{display:flex;gap:8px;margin-left:8px}
+.sl-arrows .sl-btn{height:auto;width:44px}
+.sl-dots{display:flex;gap:8px}
+.dot{width:28px;height:8px;background:#333;border:0;cursor:pointer;padding:0;transition:.2s}
+.dot.active{background:var(--gold)}
+.sl-count{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:10px;color:#666;letter-spacing:.15em}
+.stripe-left{position:absolute;left:0;top:0;bottom:0;width:54px;background:repeating-linear-gradient(-45deg,var(--gold) 0 12px,#000 12px 24px);border-right:3px solid var(--gold);z-index:12}
+.hero-top{padding:14px 18px 10px 74px;display:flex;justify-content:space-between;border-bottom:1px solid #222;position:relative;z-index:3}
+.badge{display:flex;gap:10px;align-items:center;border:1px solid var(--gold);padding:6px 12px;font-family:'JetBrains Mono',monospace;font-size:10px;background:#111}
+.badge img{width:26px;height:26px}
+.title-stack{padding:28px 0 0 74px;line-height:.85;position:relative;z-index:3}
+.title-stack .t{font-family:'Anton',Impact,sans-serif;font-weight:400;font-size:132px;-webkit-text-stroke:2px var(--gold);color:transparent;letter-spacing:2px;filter:drop-shadow(0 0 3px rgba(255,196,0,.15))}
+.title-stack .solid{color:var(--gold);-webkit-text-stroke:0;text-shadow:0 0 6px rgba(255,196,0,.6),0 0 14px rgba(255,196,0,.25);filter:drop-shadow(0 0 6px rgba(255,196,0,.35))}
+.hero-img{position:absolute;right:12px;top:64px;bottom:0;width:540px;object-fit:cover;object-position:top;z-index:4;border-left:4px solid #fff;outline:3px solid var(--gold);outline-offset:-4px}
+.hero-bottom{display:grid;grid-template-columns:1fr 360px;gap:20px;padding:18px 18px 18px 74px;position:relative;z-index:5}
+.copy{font-family:'JetBrains Mono',monospace;font-size:12px;line-height:1.7;color:#aaa;max-width:430px}
+.gold-box{background:var(--gold);color:#000;padding:14px 16px;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700}
+.cta-row{padding:0 0 18px 74px;display:flex;gap:12px;z-index:5;position:relative}
+.btn{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:12px;padding:12px 22px;border:2px solid var(--gold);text-decoration:none}
+.btn-gold{background:var(--gold);color:#000}
+.btn-outline{color:var(--gold)}
+.section{padding:34px 18px;border-top:1px solid #222}
+.sec-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+.sec-head h2{font-family:'Anton',Impact,sans-serif;font-weight:400;font-size:44px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.track{background:#111;border:1px solid #222;transition:.2s}
+.track:hover{border-color:var(--gold);transform:translateY(-2px)}
+.track-top{height:8px;background:repeating-linear-gradient(-45deg,var(--gold) 0 8px,#000 8px 16px)}
+.track img{width:100%;aspect-ratio:1/1;height:auto;object-fit:cover;display:block}
+.track-body{padding:12px}
+.track-meta{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:10px}
+.track-tag{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.14em;color:var(--gold);border:1px solid var(--gold);padding:3px 7px;white-space:nowrap}
+.track-index{width:22px;height:22px;flex:none;border:1px solid #333;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:9px;color:#666}
+.track-body h3{font-family:'Anton',Impact,sans-serif;font-weight:400;font-size:22px;letter-spacing:.5px}
+.track-body p{font-family:'JetBrains Mono',monospace;font-size:10px;color:#888;margin-top:4px}
+.track-play{display:inline-flex;align-items:center;gap:6px;margin-top:12px;background:var(--gold);color:#000;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:10px;padding:9px 12px;text-decoration:none;transition:.15s}
+.track-play:hover{background:#fff}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.bio-frame{position:relative;border:3px solid var(--gold);background:#000;overflow:hidden}
+.bio-stripe{position:absolute;left:0;top:0;bottom:0;width:44px;background:repeating-linear-gradient(-45deg,var(--gold) 0 10px,#000 10px 20px);border-right:3px solid var(--gold);z-index:2}
+.bio-grid{display:grid;grid-template-columns:1fr 1fr;margin-left:44px}
+.bio-left{padding:28px 26px;border-right:1px solid #222}
+.bio-label{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.2em;color:var(--gold);margin-bottom:16px}
+.bio-text{font-family:'JetBrains Mono',monospace;font-size:13px;line-height:1.75;color:#aaa;max-width:460px}
+.bio-text b{color:#fff}
+.bio-tags{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+.bio-tag{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.1em;border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.7);padding:6px 10px;white-space:nowrap}
+.bio-tag-solid{border-color:var(--gold);color:var(--gold)}
+.bio-right{display:flex;flex-direction:column}
+.bio-photo{position:relative;height:220px}
+.bio-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.bio-photo-badge{position:absolute;left:14px;bottom:14px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.08em;color:var(--gold);border:1px solid var(--gold);background:rgba(0,0,0,.75);padding:5px 9px}
+.bio-specs{background:var(--gold);color:#000}
+.bio-spec{display:flex;align-items:flex-start;gap:12px;padding:13px 18px;border-bottom:1px solid rgba(0,0,0,.15)}
+.bio-spec:last-child{border-bottom:none}
+.bio-spec-num{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;flex:none;padding-top:2px;opacity:.6}
+.bio-spec h3{font-family:'Anton',Impact,sans-serif;font-weight:400;font-size:16px;letter-spacing:.5px}
+.bio-spec p{font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(0,0,0,.65);margin-top:2px}
+.bio-cta{display:flex;align-items:center;justify-content:space-between;background:#000;color:var(--gold);font-family:'JetBrains Mono',monospace;font-weight:700;font-size:11px;letter-spacing:.05em;padding:15px 18px;text-decoration:none;border-top:2px solid var(--gold);transition:.15s}
+.bio-cta:hover{background:#111}
+.mix{background:#0f0f0f;border:1px solid #222;padding:14px;display:flex;flex-direction:column;gap:12px}
+.mix h3{font-weight:700;font-size:16px}
+.mix-video{position:relative;width:100%;padding-top:56.25%;border:1px solid var(--gold);background:#000;overflow:hidden}
+.mix-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block}
+.topnav{position:sticky;top:0;z-index:50;background:#080808;border-bottom:2px solid var(--gold);padding:10px 18px;display:flex;align-items:center;gap:14px}
+.topnav-brand{font-family:'Anton',Impact,sans-serif;font-size:18px;letter-spacing:1px;color:var(--gold);margin-right:auto;white-space:nowrap;text-decoration:none}
+.topnav-inline{display:flex;gap:8px;flex-wrap:wrap}
+.topnav-inline a{border:1px solid #333;padding:8px 12px;font-family:'JetBrains Mono',monospace;font-size:10px;color:#ccc;text-decoration:none;transition:.15s;display:inline-flex;align-items:center;gap:6px}
+.topnav-inline a svg,.topnav-menu a svg{flex:none;width:14px;height:14px}
+.topnav-inline a:hover{border-color:var(--gold);color:var(--gold)}
+.hamburger{width:38px;height:38px;flex:none;border:2px solid var(--gold);background:#000;display:none;flex-direction:column;justify-content:center;align-items:center;gap:5px;cursor:pointer;padding:0}
+.hamburger span{width:18px;height:2px;background:var(--gold);display:block;transition:.2s}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.topnav-menu{position:absolute;top:100%;right:18px;margin-top:2px;background:#080808;border:2px solid var(--gold);padding:10px;display:none;flex-direction:column;gap:8px;min-width:200px;z-index:60}
+.topnav-menu.open{display:flex}
+.topnav-menu a{border:1px solid #333;padding:10px 12px;font-family:'JetBrains Mono',monospace;font-size:11px;color:#ccc;text-decoration:none;transition:.15s;display:flex;align-items:center;gap:8px}
+.topnav-menu a:hover{border-color:var(--gold);color:var(--gold)}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px;background:var(--gold);color:#000;padding:18px;font-family:'JetBrains Mono',monospace}
+.contact a{color:#000}
+.footer{padding:18px 18px 40px 74px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:10px;color:#555;border-top:4px solid var(--gold)}
+.big-footer{font-family:'Anton',Impact,sans-serif;font-size:120px;line-height:.8;color:transparent;-webkit-text-stroke:1px #333;letter-spacing:4px;margin:10px 0}
+
+@media (max-width:1240px){.wrap{width:100%;max-width:1200px}}
+@media (max-width:900px){
+  .hero-frame{min-height:0}
+  .slide{min-height:0}
+  .title-stack .t{font-size:clamp(72px,14vw,112px)}
+  .hero-img{position:relative;top:auto;right:auto;bottom:auto;display:block;width:calc(100% - 92px);height:auto;max-height:620px;margin:20px 18px 0 74px}
+  .slide-release{grid-template-columns:1fr}
+  .rel-cover{max-width:520px}
+  .hero-bottom{grid-template-columns:1fr}
+  .grid4{grid-template-columns:repeat(2,1fr)}
+  .bio-grid{grid-template-columns:1fr}
+  .bio-left{border-right:none;border-bottom:1px solid #222}
+}
+@media (max-width:640px){
+  .topnav{padding:8px 12px;gap:8px}
+  .topnav-brand{font-size:15px}
+  .topnav-inline{display:none}
+  .hamburger{display:flex}
+  .topnav-menu{right:12px;left:12px;min-width:0}
+  .topnav-menu a{padding:9px 10px;font-size:10px}
+  .hero-frame{margin:0;border-width:3px}
+  .hero-top{padding-left:62px;flex-direction:column;gap:12px}
+  .title-stack{padding-left:62px;padding-top:22px}
+  .title-stack .t{font-size:clamp(58px,17vw,90px)}
+  .stripe-left{width:42px}
+  .hero-img{width:calc(100% - 80px);margin-left:62px;border-left-width:3px}
+  .slide-release{padding:28px 18px 28px 62px}
+  .slider-nav{padding-left:62px}
+  .rel-cta .btn{flex:1 1 auto;text-align:center}
+  .hero-bottom,.cta-row,.footer{padding-left:62px}
+  .grid4,.grid2,.contact{grid-template-columns:1fr}
+  .mix{flex-direction:column}
+  .bio-stripe{width:30px}
+  .bio-grid{margin-left:30px}
+  .cta-row{flex-wrap:wrap}
+  .btn{flex:1 1 auto;text-align:center}
+  .sec-head{align-items:flex-start;gap:12px;flex-direction:column}
+  .big-footer{font-size:clamp(70px,20vw,120px)}
 }
-.slide.active {
-  position:relative;
-  opacity:1;
-  visibility:visible;
-  transform:none;
-  transition:opacity .5s ease, transform .5s ease;
-}
-
-/* Slide 2: último lanzamiento */
-.slide-release {
-  min-height:0;
-  display:grid;
-  grid-template-columns:1fr 540px;
-  align-items:center;
-  gap:30px;
-  padding:40px 18px 40px 74px;
-  z-index:3;
-}
-.rel-label {
-  display:inline-block;
-  font-family:'JetBrains Mono'; font-size:11px; font-weight:700; letter-spacing:.2em;
-  color:#000; background:var(--gold); padding:6px 12px;
-}
-.rel-title {
-  font-family:'Anton'; font-weight:400;
-  font-size:clamp(64px,9vw,128px); line-height:.9; letter-spacing:2px;
-  color:var(--gold); margin:22px 0 14px;
-  text-shadow:0 0 6px rgba(255,196,0,.6),0 0 14px rgba(255,196,0,.25);
-}
-.rel-meta { font-family:'JetBrains Mono'; font-size:12px; color:#aaa; letter-spacing:.1em; }
-.rel-cta { display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; }
-.rel-cover {
-  width:100%; aspect-ratio:1/1; object-fit:cover; display:block;
-  border-left:4px solid #fff; outline:3px solid var(--gold); outline-offset:-4px;
-}
-
-/* Barra de control */
-.slider-nav {
-  position:relative; z-index:10;
-  display:flex; align-items:center; gap:14px;
-  padding:12px 18px 12px 74px;
-  border-top:1px solid #222; background:#000;
-}
-.sl-btn {
-  width:36px; height:36px; background:#000; color:var(--gold);
-  border:2px solid var(--gold); font-family:'JetBrains Mono'; font-size:14px; cursor:pointer;
-  transition:.15s;
-}
-.sl-btn:hover { background:var(--gold); color:#000; }
-.sl-arrows { display:flex; gap:8px; margin-left:8px; }
-.sl-arrows .sl-btn { height:auto; width:44px; }
-.sl-dots { display:flex; gap:8px; }
-.dot { width:28px; height:8px; background:#333; border:0; cursor:pointer; padding:0; transition:.2s; }
-.dot.active { background:var(--gold); }
-.sl-count { margin-left:auto; font-family:'JetBrains Mono'; font-size:10px; color:#666; letter-spacing:.15em; }
-
-.stripe-left {
-  position:absolute;
-  left:0;
-  top:0;
-  bottom:0;
-  width:54px;
-  background:repeating-linear-gradient(-45deg,var(--gold) 0 12px,#000 12px 24px);
-  border-right:3px solid var(--gold);
-  z-index:12;
-}
-
-.hero-top {
-  padding:14px 18px 10px 74px;
-  display:flex;
-  justify-content:space-between;
-  border-bottom:1px solid #222;
-  position:relative;
-  z-index:3;
-}
-
-.badge {
-  display:flex;
-  gap:10px;
-  align-items:center;
-  border:1px solid var(--gold);
-  padding:6px 12px;
-  font-family:'JetBrains Mono';
-  font-size:10px;
-  background:#111;
-}
-
-.badge img {
-  width:26px;
-  height:26px;
-}
-
-.title-stack {
-  padding:28px 0 0 74px;
-  line-height:.85;
-  position:relative;
-  z-index:3;
-}
-
-.title-stack div {
-  font-family:'Anton';
-  font-size:132px;
-  -webkit-text-stroke:2px var(--gold);
-  color:transparent;
-  letter-spacing:2px;
-  filter:drop-shadow(0 0 3px rgba(255,196,0,.15));
-}
-
-.title-stack div.solid {
-  color:var(--gold);
-  -webkit-text-stroke:0;
-  text-shadow:0 0 6px rgba(255,196,0,.6),0 0 14px rgba(255,196,0,.25);
-  filter:drop-shadow(0 0 6px rgba(255,196,0,.35));
-}
-
-.hero-img {
-  position:absolute;
-  right:12px;
-  top:64px;
-  bottom:0;
-  width:540px;
-  object-fit:cover;
-  object-position:top;
-  z-index:4;
-  border-left:4px solid #fff;
-  outline:3px solid var(--gold);
-  outline-offset:-4px;
-}
-
-.hero-bottom {
-  display:grid;
-  grid-template-columns:1fr 360px;
-  gap:20px;
-  padding:18px 18px 18px 74px;
-  position:relative;
-  z-index:5;
-}
-
-.copy {
-  font-family:'JetBrains Mono';
-  font-size:12px;
-  line-height:1.7;
-  color:#aaa;
-  max-width:430px;
-}
-
-.gold-box {
-  background:var(--gold);
-  color:#000;
-  padding:14px 16px;
-  font-family:'JetBrains Mono';
-  font-size:11px;
-  font-weight:700;
-}
-
-.cta-row {
-  padding:0 0 18px 74px;
-  display:flex;
-  gap:12px;
-  z-index:5;
-  position:relative;
-}
-
-.btn {
-  font-family:'JetBrains Mono';
-  font-weight:700;
-  font-size:12px;
-  padding:12px 22px;
-  border:2px solid var(--gold);
-  text-decoration:none;
-}
-
-.btn-gold {
-  background:var(--gold);
-  color:#000;
-}
-
-.btn-outline {
-  color:var(--gold);
-}
-
-.section {
-  padding:34px 18px;
-  border-top:1px solid #222;
-}
-
-.sec-head {
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  margin-bottom:18px;
-}
-
-.sec-head h2 {
-  font-family:'Anton';
-  font-size:44px;
-}
-
-.grid4 {
-  display:grid;
-  grid-template-columns:repeat(4,1fr);
-  gap:14px;
-}
-
-.track {
-  background:#111;
-  border:1px solid #222;
-  transition:.2s;
-}
-
-.track:hover {
-  border-color:var(--gold);
-  transform:translateY(-2px);
-}
-
-.track-top {
-  height:8px;
-  background:repeating-linear-gradient(-45deg,var(--gold) 0 8px,#000 8px 16px);
-}
-
-.track img {
-  width:100%;
-  aspect-ratio:1/1;
-  height:auto;
-  object-fit:cover;
-  display:block;
-}
-
-.track-body {
-  padding:12px;
-}
-
-.track-meta {
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:8px;
-  margin-bottom:10px;
-}
-
-.track-tag {
-  font-family:'JetBrains Mono';
-  font-size:9px;
-  letter-spacing:.14em;
-  color:var(--gold);
-  border:1px solid var(--gold);
-  padding:3px 7px;
-  white-space:nowrap;
-}
-
-.track-index {
-  width:22px;
-  height:22px;
-  flex:none;
-  border:1px solid #333;
-  border-radius:50%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-family:'JetBrains Mono';
-  font-size:9px;
-  color:#666;
-}
-
-.track-body h3 {
-  font-family:'Anton';
-  font-size:22px;
-  letter-spacing:.5px;
-}
-
-.track-body p {
-  font-family:'JetBrains Mono';
-  font-size:10px;
-  color:#888;
-  margin-top:4px;
-}
-
-.track-play {
-  display:inline-flex;
-  align-items:center;
-  gap:6px;
-  margin-top:12px;
-  background:var(--gold);
-  color:#000;
-  font-family:'JetBrains Mono';
-  font-weight:700;
-  font-size:10px;
-  padding:9px 12px;
-  text-decoration:none;
-  transition:.15s;
-}
-
-.track-play:hover {
-  background:#fff;
-}
-
-.grid2 {
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:16px;
-}
-
-.bio-frame {
-  position:relative;
-  border:3px solid var(--gold);
-  background:#000;
-  overflow:hidden;
-}
-
-.bio-stripe {
-  position:absolute;
-  left:0;
-  top:0;
-  bottom:0;
-  width:44px;
-  background:repeating-linear-gradient(-45deg,var(--gold) 0 10px,#000 10px 20px);
-  border-right:3px solid var(--gold);
-  z-index:2;
-}
-
-.bio-grid {
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  margin-left:44px;
-}
-
-.bio-left {
-  padding:28px 26px;
-  border-right:1px solid #222;
-}
-
-.bio-label {
-  font-family:'JetBrains Mono';
-  font-size:11px;
-  letter-spacing:.2em;
-  color:var(--gold);
-  margin-bottom:16px;
-}
-
-.bio-text {
-  font-family:'JetBrains Mono';
-  font-size:13px;
-  line-height:1.75;
-  color:#aaa;
-  max-width:460px;
-}
-
-.bio-text b {
-  color:#fff;
-}
-
-.bio-tags {
-  display:flex;
-  gap:10px;
-  margin-top:20px;
-  flex-wrap:wrap;
-}
-
-.bio-tag {
-  font-family:'JetBrains Mono';
-  font-size:9px;
-  letter-spacing:.1em;
-  border:1px solid rgba(255,255,255,.2);
-  color:rgba(255,255,255,.7);
-  padding:6px 10px;
-  white-space:nowrap;
-}
-
-.bio-tag-solid {
-  border-color:var(--gold);
-  color:var(--gold);
-}
-
-.bio-right {
-  display:flex;
-  flex-direction:column;
-}
-
-.bio-photo {
-  position:relative;
-  height:220px;
-}
-
-.bio-photo img {
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  display:block;
-}
-
-.bio-photo-badge {
-  position:absolute;
-  left:14px;
-  bottom:14px;
-  font-family:'JetBrains Mono';
-  font-size:10px;
-  letter-spacing:.08em;
-  color:var(--gold);
-  border:1px solid var(--gold);
-  background:rgba(0,0,0,.75);
-  padding:5px 9px;
-}
-
-.bio-specs {
-  background:var(--gold);
-  color:#000;
-}
-
-.bio-spec {
-  display:flex;
-  align-items:flex-start;
-  gap:12px;
-  padding:13px 18px;
-  border-bottom:1px solid rgba(0,0,0,.15);
-}
-
-.bio-spec:last-child {
-  border-bottom:none;
-}
-
-.bio-spec-num {
-  font-family:'JetBrains Mono';
-  font-size:11px;
-  font-weight:700;
-  flex:none;
-  padding-top:2px;
-  opacity:.6;
-}
-
-.bio-spec h4 {
-  font-family:'Anton';
-  font-size:16px;
-  letter-spacing:.5px;
-}
-
-.bio-spec p {
-  font-family:'JetBrains Mono';
-  font-size:10px;
-  color:rgba(0,0,0,.65);
-  margin-top:2px;
-}
-
-.bio-cta {
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  background:#000;
-  color:var(--gold);
-  font-family:'JetBrains Mono';
-  font-weight:700;
-  font-size:11px;
-  letter-spacing:.05em;
-  padding:15px 18px;
-  text-decoration:none;
-  border-top:2px solid var(--gold);
-  transition:.15s;
-}
-
-.bio-cta:hover {
-  background:#111;
-}
-
-.mix {
-  background:#0f0f0f;
-  border:1px solid #222;
-  padding:14px;
-  display:flex;
-  flex-direction:column;
-  gap:12px;
-}
-
-.mix-video {
-  position:relative;
-  width:100%;
-  padding-top:56.25%;
-  border:1px solid var(--gold);
-  background:#000;
-  overflow:hidden;
-}
-
-.mix-video iframe {
-  position:absolute;
-  inset:0;
-  width:100%;
-  height:100%;
-  border:0;
-  display:block;
-}
-
-.socials {
-  display:flex;
-  gap:8px;
-  flex-wrap:wrap;
-}
-
-.socials a {
-  border:1px solid #333;
-  padding:8px 12px;
-  font-family:'JetBrains Mono';
-  font-size:10px;
-  color:#ccc;
-  text-decoration:none;
-}
-
-.topnav {
-  position:sticky;
-  top:0;
-  z-index:50;
-  background:#080808;
-  border-bottom:2px solid var(--gold);
-  padding:10px 18px;
-  display:flex;
-  align-items:center;
-  gap:14px;
-}
-
-.topnav-brand {
-  font-family:'Anton';
-  font-size:18px;
-  letter-spacing:1px;
-  color:var(--gold);
-  margin-right:auto;
-  white-space:nowrap;
-}
-
-.topnav-inline {
-  display:flex;
-  gap:8px;
-  flex-wrap:wrap;
-}
-
-.topnav-inline a {
-  border:1px solid #333;
-  padding:8px 12px;
-  font-family:'JetBrains Mono';
-  font-size:10px;
-  color:#ccc;
-  text-decoration:none;
-  transition:.15s;
-  display:inline-flex;
-  align-items:center;
-  gap:6px;
-}
-
-.topnav-inline a svg,
-.topnav-menu a svg {
-  flex:none;
-  width:14px;
-  height:14px;
-}
-
-.topnav-inline a:hover {
-  border-color:var(--gold);
-  color:var(--gold);
-}
-
-.hamburger {
-  width:38px;
-  height:38px;
-  flex:none;
-  border:2px solid var(--gold);
-  background:#000;
-  display:none;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  gap:5px;
-  cursor:pointer;
-  padding:0;
-}
-
-.hamburger span {
-  width:18px;
-  height:2px;
-  background:var(--gold);
-  display:block;
-  transition:.2s;
-}
-
-.hamburger.open span:nth-child(1) { transform:translateY(7px) rotate(45deg); }
-.hamburger.open span:nth-child(2) { opacity:0; }
-.hamburger.open span:nth-child(3) { transform:translateY(-7px) rotate(-45deg); }
-
-.topnav-menu {
-  position:absolute;
-  top:100%;
-  right:18px;
-  margin-top:2px;
-  background:#080808;
-  border:2px solid var(--gold);
-  padding:10px;
-  display:none;
-  flex-direction:column;
-  gap:8px;
-  min-width:200px;
-  z-index:60;
-}
-
-.topnav-menu.open {
-  display:flex;
-}
-
-.topnav-menu a {
-  border:1px solid #333;
-  padding:10px 12px;
-  font-family:'JetBrains Mono';
-  font-size:11px;
-  color:#ccc;
-  text-decoration:none;
-  transition:.15s;
-  display:flex;
-  align-items:center;
-  gap:8px;
-}
-
-.topnav-menu a:hover {
-  border-color:var(--gold);
-  color:var(--gold);
-}
-
-.contact {
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:20px;
-  background:var(--gold);
-  color:#000;
-  padding:18px;
-  font-family:'JetBrains Mono';
-}
-
-.footer {
-  padding:18px 18px 40px 74px;
-  text-align:center;
-  font-family:'JetBrains Mono';
-  font-size:10px;
-  color:#555;
-  border-top:4px solid var(--gold);
-}
-
-.big-footer {
-  font-family:'Anton';
-  font-size:120px;
-  line-height:.8;
-  color:transparent;
-  -webkit-text-stroke:1px #333;
-  letter-spacing:4px;
-  margin:10px 0;
-}
-
-@media (max-width: 1240px) {
-  .wrap { width:100%; max-width:1200px; }
-}
-
-@media (max-width: 900px) {
-  .hero-frame { min-height:0; }
-  .slide { min-height:0; }
-  .title-stack div { font-size:clamp(72px,14vw,112px); }
-  .hero-img { position:relative; top:auto; right:auto; bottom:auto; display:block; width:calc(100% - 92px); height:auto; max-height:620px; margin:20px 18px 0 74px; }
-
-  .slide-release { grid-template-columns:1fr; }
-  .rel-cover { max-width:520px; }
-
-  .hero-bottom { grid-template-columns:1fr; }
-  .grid4 { grid-template-columns:repeat(2,1fr); }
-  .bio-grid { grid-template-columns:1fr; }
-  .bio-left { border-right:none; border-bottom:1px solid #222; }
-}
-
-@media (max-width: 640px) {
-  .topnav { padding:8px 12px; gap:8px; }
-  .topnav-brand { font-size:15px; }
-  .topnav-inline { display:none; }
-  .hamburger { display:flex; }
-  .topnav-menu { right:12px; left:12px; min-width:0; }
-  .topnav-menu a { padding:9px 10px; font-size:10px; }
-
-  .hero-frame { margin:0; border-width:3px; }
-  .hero-top { padding-left:62px; flex-direction:column; gap:12px; }
-  .title-stack { padding-left:62px; padding-top:22px; }
-  .title-stack div { font-size:clamp(58px,17vw,90px); }
-  .stripe-left { width:42px; }
-  .hero-img { width:calc(100% - 80px); margin-left:62px; border-left-width:3px; }
-
-  .slide-release { padding:28px 18px 28px 62px; }
-  .slider-nav { padding-left:62px; }
-  .rel-cta .btn { flex:1 1 auto; text-align:center; }
-
-  .hero-bottom, .cta-row, .footer { padding-left:62px; }
-  .grid4, .grid2, .contact { grid-template-columns:1fr; }
-  .mix { flex-direction:column; }
-  .bio-stripe { width:30px; }
-  .bio-grid { margin-left:30px; }
-  .cta-row { flex-wrap:wrap; }
-  .btn { flex:1 1 auto; text-align:center; }
-  .sec-head { align-items:flex-start; gap:12px; flex-direction:column; }
-  .big-footer { font-size:clamp(70px,20vw,120px); }
-}
-
 </style></head><body>
 <div class="wrap">
-<nav class="topnav"><span class="topnav-brand">IJGATU</span><div class="topnav-inline"><a href="https://www.youtube.com/@ijgatudj" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>YOUTUBE</a><a href="https://open.spotify.com/intl-es/artist/3RXrcExYpRZfXqje3I6b3p" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="9" x2="4" y2="15"/><line x1="9" y1="5" x2="9" y2="19"/><line x1="14" y1="3" x2="14" y2="21"/><line x1="19" y1="7" x2="19" y2="17"/></svg>SPOTIFY</a><a href="https://soundcloud.com/ijgatu" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h11a4 4 0 0 0 .4-7.98A6 6 0 0 0 7 10.5a3.5 3.5 0 0 0-1 6.87"/></svg>SOUNDCLOUD</a><a href="https://www.instagram.com/ijgatu/" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="4"/><circle cx="12" cy="12" r="3.5"/><circle cx="17" cy="8" r="0.7" fill="currentColor" stroke="none"/></svg>INSTAGRAM</a><a href="https://www.tiktok.com/@ijgatu" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l10-2v13"/><circle cx="7" cy="18" r="2.5"/><circle cx="17" cy="16" r="2.5"/></svg>TIKTOK</a><a href="https://music.apple.com/id/artist/ijgatu-dj/1610407190" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14v-3a9 9 0 0 1 18 0v3"/><rect x="2" y="14" width="5" height="7" rx="1.5"/><rect x="17" y="14" width="5" height="7" rx="1.5"/></svg>APPLE MUSIC</a></div><button class="hamburger" id="navToggle" aria-label="Abrir menú de redes" aria-expanded="false"><span></span><span></span><span></span></button><div class="topnav-menu" id="navMenu"><a href="https://www.youtube.com/@ijgatudj" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>YOUTUBE</a><a href="https://open.spotify.com/intl-es/artist/3RXrcExYpRZfXqje3I6b3p" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="9" x2="4" y2="15"/><line x1="9" y1="5" x2="9" y2="19"/><line x1="14" y1="3" x2="14" y2="21"/><line x1="19" y1="7" x2="19" y2="17"/></svg>SPOTIFY</a><a href="https://soundcloud.com/ijgatu" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h11a4 4 0 0 0 .4-7.98A6 6 0 0 0 7 10.5a3.5 3.5 0 0 0-1 6.87"/></svg>SOUNDCLOUD</a><a href="https://www.instagram.com/ijgatu/" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="4"/><circle cx="12" cy="12" r="3.5"/><circle cx="17" cy="8" r="0.7" fill="currentColor" stroke="none"/></svg>INSTAGRAM</a><a href="https://www.tiktok.com/@ijgatu" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l10-2v13"/><circle cx="7" cy="18" r="2.5"/><circle cx="17" cy="16" r="2.5"/></svg>TIKTOK</a><a href="https://music.apple.com/id/artist/ijgatu-dj/1610407190" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14v-3a9 9 0 0 1 18 0v3"/><rect x="2" y="14" width="5" height="7" rx="1.5"/><rect x="17" y="14" width="5" height="7" rx="1.5"/></svg>APPLE MUSIC</a></div></nav>
-<div class="hazard"></div>
-<div class="plusbar"> + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + </div>
+<nav class="topnav" aria-label="Redes de IJGATU">
+<a class="topnav-brand" href="/">IJGATU</a>
+<div class="topnav-inline"><a href="https://www.youtube.com/@ijgatudj" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>YOUTUBE</a><a href="https://open.spotify.com/intl-es/artist/3RXrcExYpRZfXqje3I6b3p" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="9" x2="4" y2="15"/><line x1="9" y1="5" x2="9" y2="19"/><line x1="14" y1="3" x2="14" y2="21"/><line x1="19" y1="7" x2="19" y2="17"/></svg>SPOTIFY</a><a href="https://soundcloud.com/ijgatu" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18h11a4 4 0 0 0 .4-7.98A6 6 0 0 0 7 10.5a3.5 3.5 0 0 0-1 6.87"/></svg>SOUNDCLOUD</a><a href="https://www.instagram.com/ijgatu/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="4"/><circle cx="12" cy="12" r="3.5"/><circle cx="17" cy="8" r="0.7" fill="currentColor" stroke="none"/></svg>INSTAGRAM</a><a href="https://www.tiktok.com/@ijgatu" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l10-2v13"/><circle cx="7" cy="18" r="2.5"/><circle cx="17" cy="16" r="2.5"/></svg>TIKTOK</a><a href="https://music.apple.com/id/artist/ijgatu-dj/1610407190" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 14v-3a9 9 0 0 1 18 0v3"/><rect x="2" y="14" width="5" height="7" rx="1.5"/><rect x="17" y="14" width="5" height="7" rx="1.5"/></svg>APPLE MUSIC</a></div>
+<button class="hamburger" id="navToggle" aria-label="Abrir menú de redes" aria-expanded="false"><span></span><span></span><span></span></button>
+<div class="topnav-menu" id="navMenu"></div>
+</nav>
+<div class="hazard" aria-hidden="true"></div>
+<div class="plusbar" aria-hidden="true"> + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + </div>
 
+<main>
 <!-- ===== HERO SLIDER ===== -->
 <div class="hero-frame" id="heroSlider" aria-roledescription="carousel" aria-label="Destacados IJGATU">
-  <div class="stripe-left"></div>
+  <div class="stripe-left" aria-hidden="true"></div>
 
   <div class="slides">
-    <!-- SLIDE 1: hero actual -->
+    <!-- SLIDE 1 -->
     <div class="slide active" aria-roledescription="slide" aria-label="1 de 2">
       <div class="hero-top">
-        <div style="font-family:'JetBrains Mono';font-size:11px;opacity:.6">IJGATU X LATAM ELECTRONICA — BOGOTA / COLOMBIA — SINCE 2022</div>
-        <div class="badge"><img data-img="img_01"> IJGATU'S CREATIVE — EXPERIMENTAL MIX 2022—2026</div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:11px;opacity:.6">IJGATU X LATAM ELECTRONICA — BOGOTA / COLOMBIA — SINCE 2022</div>
+        <div class="badge"><img src="images/ijgatu-mark.png" alt="Logo de IJGATU" width="26" height="26"> IJGATU'S CREATIVE — EXPERIMENTAL MIX 2022—2026</div>
       </div>
-      <div class="title-stack"><div class="solid">IJGATU</div><div>IJGATU</div><div>IJGATU</div><div>IJGATU</div></div>
-      <img class="hero-img" data-img="img_03">
+      <div class="title-stack"><h1 class="t solid">IJGATU</h1><div class="t" aria-hidden="true">IJGATU</div><div class="t" aria-hidden="true">IJGATU</div><div class="t" aria-hidden="true">IJGATU</div></div>
+      <img class="hero-img" src="images/hero-portrait.jpg" alt="IJGATU, DJ y productor de música electrónica de Bogotá, Colombia" fetchpriority="high">
       <div class="hero-bottom">
-        <div class="copy"><b style="color:#fff">La música electrónica llegó cuando estaba cansado de lo mismo.</b> Letras simples y sin sentido. Con la muerte de Avicii sentí conexión y una magia que me llevó hasta estar aquí y seguir avanzando. Sonido progresivo, eufórico, rítmico — Bogotá base.</div>
-        <div class="gold-box">PRENSA / PUBLICACIONES:<br><br><b>STEMS MAGAZINE</b> — 07 AGO 2026<br>"ijgatu: la disciplina detrás del bigroom colombiano"<br><a href="https://stemsmag.fyi/articulos/articulo-ijgatu.html" target="_blank" style="color:#000;text-decoration:underline">LEER ARTÍCULO →</a></div>
+        <div class="copy"><b style="color:#fff">IJGATU, DJ y productor de música electrónica de Bogotá, Colombia.</b> La música electrónica llegó cuando estaba cansado de lo mismo. Letras simples y sin sentido. Con la muerte de Avicii sentí conexión y una magia que me llevó hasta estar aquí y seguir avanzando. Sonido progresivo, eufórico, rítmico — Bogotá base.</div>
+        <div class="gold-box">PRENSA / PUBLICACIONES:<br><br><b>STEMS MAGAZINE</b> — 07 AGO 2026<br>"ijgatu: la disciplina detrás del bigroom colombiano"<br><a href="https://stemsmag.fyi/articulos/articulo-ijgatu.html" target="_blank" rel="noopener" style="color:#000;text-decoration:underline">LEER ARTÍCULO →</a></div>
       </div>
-      <div class="cta-row"><a class="btn btn-gold" href="#lanzamientos">ESCUCHAR AHORA →</a><a class="btn btn-outline" href="https://www.youtube.com/@ijgatudj" target="_blank">VER YOUTUBE</a>
+      <div class="cta-row"><a class="btn btn-gold" href="#lanzamientos">ESCUCHAR AHORA →</a><a class="btn btn-outline" href="https://www.youtube.com/@ijgatudj" target="_blank" rel="noopener">VER YOUTUBE</a>
         <div class="sl-arrows"><button class="sl-btn" data-dir="-1" aria-label="Anterior">←</button><button class="sl-btn" data-dir="1" aria-label="Siguiente">→</button></div>
       </div>
     </div>
@@ -801,12 +240,12 @@ body {
         <h2 class="rel-title">ARTEMIS</h2>
         <p class="rel-meta">BIGROOM — IJGATU DJ — 2026</p>
         <div class="rel-cta">
-          <a class="btn btn-gold" href="https://www.mavelpoint.com/es/artist/ijgatu/overview" target="_blank">▶ ESCUCHAR </a>
+          <a class="btn btn-gold" href="https://www.mavelpoint.com/es/artist/ijgatu/overview" target="_blank" rel="noopener">▶ ESCUCHAR </a>
           <a class="btn btn-outline" href="#lanzamientos">VER TODOS →</a>
           <div class="sl-arrows"><button class="sl-btn" data-dir="-1" aria-label="Anterior">←</button><button class="sl-btn" data-dir="1" aria-label="Siguiente">→</button></div>
         </div>
       </div>
-      <img class="rel-cover" data-img="img_09" alt="Portada del último lanzamiento">
+      <img class="rel-cover" src="images/artemis.jpg" alt="Portada de Artemis, último lanzamiento de Bigroom de IJGATU" loading="lazy">
     </div>
   </div>
 
@@ -820,72 +259,57 @@ body {
 </div>
 <!-- ===== /HERO SLIDER ===== -->
 
-<div class="hazard"></div>
-<div class="section" id="lanzamientos">
-<div class="sec-head"><h2>LANZAMIENTOS</h2><span style="font-family:'JetBrains Mono';font-size:10px;border:1px solid var(--gold);padding:4px 8px;color:var(--gold)">4 TRACKS REALES</span></div>
+<div class="hazard" aria-hidden="true"></div>
+<section class="section" id="lanzamientos">
+<div class="sec-head"><h2>LANZAMIENTOS</h2><span style="font-family:'JetBrains Mono',monospace;font-size:10px;border:1px solid var(--gold);padding:4px 8px;color:var(--gold)">4 TRACKS REALES</span></div>
 <div class="grid4">
-<div class="track"><div class="track-top"></div><img data-img="img_04"><div class="track-body"><div class="track-meta"><span class="track-tag">BIGROOM</span><span class="track-index">01</span></div><h3>VOYAGER</h3><p>Sonda espacial / Viaje interestelar</p><a class="track-play" href="https://open.spotify.com/track/0rFT6zgaaKY6pSnwLOzHu0?si=05fd19724e2740ea" target="_blank">▶ ESCUCHAR</a></div></div>
-<div class="track"><div class="track-top"></div><img data-img="img_05"><div class="track-body"><div class="track-meta"><span class="track-tag">MELODIC TECHNO</span><span class="track-index">02</span></div><h3>GRAVITY</h3><p>STYLES MUSIC x IJGATU DJ x JAXIQ</p><a class="track-play" href="https://open.spotify.com/track/6LZX0fwvg3lEPBZg1315tR?si=e49fdf24a05c42de" target="_blank">▶ ESCUCHAR</a></div></div>
-<div class="track"><div class="track-top"></div><img data-img="img_06"><div class="track-body"><div class="track-meta"><span class="track-tag">BIGROOM HOUSE</span><span class="track-index">03</span></div><h3>JAVA</h3><p>STYLE'S MUSIC — DIAMANTE AZUL</p><a class="track-play" href="https://open.spotify.com/track/7cmJOV7r9ffelOnq6G2olf?si=e4e7db7af7c24d62" target="_blank">▶ ESCUCHAR</a></div></div>
-<div class="track"><div class="track-top"></div><img data-img="img_07"><div class="track-body"><div class="track-meta"><span class="track-tag">TECHNO</span><span class="track-index">04</span></div><h3>YOUR MAIN</h3><p>Esfera iridiscente — IJGATU DJ</p><a class="track-play" href="https://open.spotify.com/track/3Fh7tEXfDYrlT2GQzP88iS?si=dfee6931f3ba46a8" target="_blank">▶ ESCUCHAR</a></div></div>
+<article class="track"><div class="track-top"></div><img src="images/voyager.jpg" alt="Portada de Voyager, track de Bigroom de IJGATU" loading="lazy"><div class="track-body"><div class="track-meta"><span class="track-tag">BIGROOM</span><span class="track-index">01</span></div><h3>VOYAGER</h3><p>Sonda espacial / Viaje interestelar</p><a class="track-play" href="https://open.spotify.com/track/0rFT6zgaaKY6pSnwLOzHu0?si=05fd19724e2740ea" target="_blank" rel="noopener" aria-label="Escuchar Voyager en Spotify">▶ ESCUCHAR</a></div></article>
+<article class="track"><div class="track-top"></div><img src="images/gravity.jpg" alt="Portada de Gravity, melodic techno de IJGATU con Jaxiq" loading="lazy"><div class="track-body"><div class="track-meta"><span class="track-tag">MELODIC TECHNO</span><span class="track-index">02</span></div><h3>GRAVITY</h3><p>STYLES MUSIC x IJGATU DJ x JAXIQ</p><a class="track-play" href="https://open.spotify.com/track/6LZX0fwvg3lEPBZg1315tR?si=e49fdf24a05c42de" target="_blank" rel="noopener" aria-label="Escuchar Gravity en Spotify">▶ ESCUCHAR</a></div></article>
+<article class="track"><div class="track-top"></div><img src="images/java.jpg" alt="Portada de Java, Bigroom house de IJGATU" loading="lazy"><div class="track-body"><div class="track-meta"><span class="track-tag">BIGROOM HOUSE</span><span class="track-index">03</span></div><h3>JAVA</h3><p>STYLE'S MUSIC — DIAMANTE AZUL</p><a class="track-play" href="https://open.spotify.com/track/7cmJOV7r9ffelOnq6G2olf?si=e4e7db7af7c24d62" target="_blank" rel="noopener" aria-label="Escuchar Java en Spotify">▶ ESCUCHAR</a></div></article>
+<article class="track"><div class="track-top"></div><img src="images/your-main.jpg" alt="Portada de Your Main, techno de IJGATU" loading="lazy"><div class="track-body"><div class="track-meta"><span class="track-tag">TECHNO</span><span class="track-index">04</span></div><h3>YOUR MAIN</h3><p>Esfera iridiscente — IJGATU DJ</p><a class="track-play" href="https://open.spotify.com/track/3Fh7tEXfDYrlT2GQzP88iS?si=dfee6931f3ba46a8" target="_blank" rel="noopener" aria-label="Escuchar Your Main en Spotify">▶ ESCUCHAR</a></div></article>
 </div>
-<div style="margin-top:20px;border:2px solid var(--gold)"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/3RXrcExYpRZfXqje3I6b3p" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
-</div>
-<div class="section"><div class="sec-head">
+<div style="margin-top:20px;border:2px solid var(--gold)"><iframe title="IJGATU en Spotify" style="border-radius:12px" src="https://open.spotify.com/embed/artist/3RXrcExYpRZfXqje3I6b3p" width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+</section>
+
+<section class="section" id="origen"><div class="sec-head">
 <h2>ORIGEN</h2></div>
-<div class="bio-frame"><div class="bio-stripe"></div><div class="bio-grid">
+<div class="bio-frame"><div class="bio-stripe" aria-hidden="true"></div><div class="bio-grid">
 <div class="bio-left">
 <div class="bio-label">— BIO / MANIFIESTO</div>
 <div class="bio-text"><b>IJGATU NO ES SOLO UN DJ, ES UNA TRANSMISIÓN.</b> La música electrónica llegó a mi vida en un momento donde ya estaba cansado de escuchar lo mismo, letras simples y sin sentido. Con la muerte de Avicii sentí una conexión y una magia que me llevó hasta estar aquí y seguir avanzando.<br><br>Inicié en 2022 de forma no constante; hoy el proyecto se enfoca en progresivo y eufórico, manteniendo el groove rítmico de Bogotá para el mundo.</div>
 <div class="bio-tags"><span class="bio-tag">DESDE 2022 / BOGOTÁ</span><span class="bio-tag bio-tag-solid">SEÑAL: ACTIVA</span></div>
 </div>
 <div class="bio-right">
-<div class="bio-photo"><img data-img="img_08"><span class="bio-photo-badge">IJGATU // BOGOTÁ DJ</span></div>
+<div class="bio-photo"><img src="images/origin-portrait.jpg" alt="IJGATU, DJ de Bogotá, Colombia" loading="lazy"><span class="bio-photo-badge">IJGATU // BOGOTÁ DJ</span></div>
 <div class="bio-specs">
-<div class="bio-spec"><span class="bio-spec-num">01</span><div><h4>PROGRESIVO</h4><p>Groove ascendente / tensión y release</p></div></div>
-<div class="bio-spec"><span class="bio-spec-num">02</span><div><h4>EUFÓRICO</h4><p>Drops melódicos / energía main stage</p></div></div>
-<div class="bio-spec"><span class="bio-spec-num">03</span><div><h4>RÍTMICO</h4><p>Groove de Bogotá / percusión viva</p></div></div>
-<div class="bio-spec"><span class="bio-spec-num">04</span><div><h4>BIGROOM / MELODIC</h4><p>Bigroom house / melodic techno</p></div></div>
+<div class="bio-spec"><span class="bio-spec-num">01</span><div><h3>PROGRESIVO</h3><p>Groove ascendente / tensión y release</p></div></div>
+<div class="bio-spec"><span class="bio-spec-num">02</span><div><h3>EUFÓRICO</h3><p>Drops melódicos / energía main stage</p></div></div>
+<div class="bio-spec"><span class="bio-spec-num">03</span><div><h3>RÍTMICO</h3><p>Groove de Bogotá / percusión viva</p></div></div>
+<div class="bio-spec"><span class="bio-spec-num">04</span><div><h3>BIGROOM / MELODIC</h3><p>Bigroom house / melodic techno</p></div></div>
 </div>
 <a class="bio-cta" href="#lanzamientos">ESCUCHAR ÚLTIMO LANZAMIENTO →</a>
 </div>
 </div></div>
-</div>
-<div class="section"><div class="sec-head">
+</section>
+
+<section class="section" id="sessions"><div class="sec-head">
 <h2>SESSIONS</h2></div><div class="grid2">
-<div class="mix"><div class="mix-video"><iframe src="https://www.youtube.com/embed/ZQ1bSFay_Fw" title="Guest mix #1 Latam Electrónica" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div><h4>Guest mix #1 Latam Electrónica</h4><p style="font-family:'JetBrains Mono';font-size:11px;color:#777">30:48 — melodic techno</p><br><a class="btn btn-outline" href="https://www.youtube.com/watch?v=ZQ1bSFay_Fw" target="_blank">VER EN YOUTUBE</a></div></div>
-<div class="mix"><div class="mix-video"><iframe src="https://www.youtube.com/embed/pcr5zF1rt7Q" title="Guest mix Big Room For Ever" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div><h4>Guest mix Big Room For Ever</h4><p style="font-family:'JetBrains Mono';font-size:11px;color:#777">28:48 — bigroom house y techno</p><br><a class="btn btn-outline" href="https://www.youtube.com/watch?v=pcr5zF1rt7Q" target="_blank">VER EN YOUTUBE</a></div></div>
-</div></div>
-<div class="section"><div class="contact"><div><b>BOOKING</b><br>ijgatudj@gmail.com<br>+57 3016289739<br>Bogotá, Colombia</div><div style="text-align:right"><img data-img="img_01" style="width:120px;background:#000;padding:6px"><br>ESPACIO / EVOLUCION / MELODIA</div></div></div>
-<div class="hazard"></div>
-<div class="footer"><div class="big-footer">IJGATU</div>PROGRESIVO — EUFORICO — RITMICO — BOGOTA 2022-2026<br>
-MARVELOUS PRODUCTION 2026</div>
-<div class="plusbar"> + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + </div>
+<div class="mix"><div class="mix-video"><iframe src="https://www.youtube.com/embed/ZQ1bSFay_Fw" title="Guest mix #1 Latam Electrónica — IJGATU" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div><h3>Guest mix #1 Latam Electrónica</h3><p style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#777">30:48 — melodic techno</p><br><a class="btn btn-outline" href="https://www.youtube.com/watch?v=ZQ1bSFay_Fw" target="_blank" rel="noopener">VER EN YOUTUBE</a></div></div>
+<div class="mix"><div class="mix-video"><iframe src="https://www.youtube.com/embed/pcr5zF1rt7Q" title="Guest mix Big Room For Ever — IJGATU" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div><h3>Guest mix Big Room For Ever</h3><p style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#777">28:48 — bigroom house y techno</p><br><a class="btn btn-outline" href="https://www.youtube.com/watch?v=pcr5zF1rt7Q" target="_blank" rel="noopener">VER EN YOUTUBE</a></div></div>
+</div></section>
+
+<section class="section" id="booking"><div class="contact"><div><b>BOOKING</b><br><a href="mailto:ijgatudj@gmail.com">ijgatudj@gmail.com</a><br><a href="tel:+573016289739">+57 3016289739</a><br>Bogotá, Colombia</div><div style="text-align:right"><img src="images/ijgatu-mark.png" alt="Logo de IJGATU" loading="lazy" style="width:120px;background:#000;padding:6px"><br>ESPACIO / EVOLUCION / MELODIA</div></div></section>
+</main>
+
+<div class="hazard" aria-hidden="true"></div>
+<footer class="footer"><div class="big-footer" aria-hidden="true">IJGATU</div>PROGRESIVO — EUFORICO — RITMICO — BOGOTA 2022-2026<br>
+MARVELOUS PRODUCTION 2026</footer>
+<div class="plusbar" aria-hidden="true"> + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + </div>
 </div>
 <script>
-const IMAGE_SRC = {
-  "img_01": "images/ijgatu-mark.png",
-  "img_02": "images/experimental-mix.webp",
-  "img_03": "images/hero-portrait.jpg",
-  "img_04": "images/voyager.jpg",
-  "img_05": "images/gravity.jpg",
-  "img_06": "images/java.jpg",
-  "img_07": "images/your-main.jpg",
-  "img_08": "images/origin-portrait.jpg",
-  "img_09": "images/artemis.jpg"
-};
-
-document.querySelectorAll('[data-img]').forEach((img) => {
-  const key = img.getAttribute('data-img');
-  if (IMAGE_SRC[key]) {
-    img.src = IMAGE_SRC[key];
-  } else {
-    console.warn(`Imagen no encontrada para la clave: ${key}`);
-  }
-});
-
 const navToggle = document.getElementById('navToggle');
 const navMenu = document.getElementById('navMenu');
+navMenu.innerHTML = document.querySelector('.topnav-inline').innerHTML;
 
 navToggle.addEventListener('click', (e) => {
   e.stopPropagation();
